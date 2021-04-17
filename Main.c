@@ -31,7 +31,7 @@ int main()
 
     // convert number to Octal
     unsigned int *OctalValue = ConvertInttoOctal( input, sizeOctal );
-    for (int i = 0; i < sizeBinary[0]; i++)
+    for (int i = 0; i < sizeOctal[0]; i++)
     {
         outputOctal[i] = *(OctalValue + i);
     }
@@ -109,6 +109,7 @@ unsigned int *ConvertInttoOctal( char* input, int *size )
         iresult[k] = OctalNum[j] + 48;
         k++;
     }
+    size[0] = k;
     return iresult;
 }
 //////////////////////////////////////////////////////////////
