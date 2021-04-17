@@ -5,9 +5,9 @@
 #include <string.h>
 #include <stdlib.h> 
 
-unsigned int *ConvertInttoBinary(char* input, int *size );               // Converts Int To Binary
-unsigned int *ConvertInttoOctal(char* input, int* size );                // Converts Int To Octal
-unsigned int *ConvertInttoHexadecimal(char* input, int* size);           // Converts Int To Hexadecimal
+unsigned int *ConvertInttoBinary( char* input, int *size );               // Converts Int To Binary
+unsigned int *ConvertInttoOctal( char* input, int* size );                // Converts Int To Octal
+unsigned int *ConvertInttoHexadecimal( char* input, int* size );           // Converts Int To Hexadecimal
 
 int main()
 {
